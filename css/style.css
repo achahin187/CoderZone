@@ -1,0 +1,289 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none important;
+    color: black;
+}
+
+.active-pink-2 input.form-control[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #f48fb1;
+    box-shadow: 0 1px 0 0 #f48fb1;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.search-form {
+    width: 300px;
+}
+
+.search {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.zone {
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.home {
+    margin-top: 20px;
+    width: 100%;
+    border-bottom: 1px solid rgb(184, 174, 174);
+}
+
+.home a {
+    text-decoration: none;
+    color: black;
+}
+
+.span {
+    font-size: 25px;
+}
+
+.fa-home {
+    font-size: x-large;
+}
+
+button {
+    margin-bottom: 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border-bottom: 1px solid rgb(139, 122, 122);
+}
+
+.h2 {
+    text-align: center;
+    border-bottom: 1px solid rgb(189, 182, 182);
+    padding-bottom: 10px;
+}
+
+.setting {
+    padding-top: 20px;
+}
+
+label {
+    font-weight: bold;
+    padding-left: 5px;
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+.save {
+    width: 300px;
+}
+
+.save1 {
+    padding-top: 50px;
+}
+
+
+/*--------------------------*/
+
+.footer {
+    text-align: center;
+    background-color: white !important;
+    width: 100%;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.us {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.send {
+    margin-left: 250px;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(80, 74, 74);
+}
+
+.send:hover {
+    background-color: white;
+    color: rgb(90, 83, 83);
+}
+
+.contact {
+    padding-top: 40px;
+}
+
+.p {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.show-comment {
+    border-top: 1px solid rgb(124, 115, 115);
+    padding-top: 5PX;
+    border-bottom: 1px solid gray;
+}
+
+.delete {
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+#img-upload {
+    width: 100%;
+}
+
+#name {
+    color: black;
+    text-decoration: none;
+}
+
+#nav {
+    right: 0;
+    left: 0;
+    box-shadow: 0px 0px 10px gray;
+    height: 70px;
+    width: 100%;
+    z-index: 1000;
+}
+
+#favorite {
+    display: inline;
+}
+
+#heart {
+    margin-top: 25px;
+}
+
+#edit {
+    display: inline;
+    margin-left: 200px;
+}
+
+#sidebar {
+    box-shadow: 0px 10px 10px gray;
+}
+
+#comment {
+    text-decoration: none;
+    color: black;
+}
+
+.card {
+    box-shadow: 0px 10px 10px gray;
+}
+
+.auth {
+    background-color: rgba(255, 255, 255, 0.87);
+    padding: 30px;
+    opacity: .8;
+    border-radius: 10px;
+}
+
+.auth span {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.auth small {
+    color: blue;
+    display: inline;
+}
+
+.event {
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    height: 30px;
+    margin-left: 600px;
+    position: absolute;
+    z-index: 4;
+}
+
+.book {
+    background-color: rgb(179, 171, 171);
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.book .date {
+    text-align: center;
+    font-weight: bold;
+    margin-left: 20px;
+    background-color: white;
+    color: rgb(177, 146, 146);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.book .title {
+    text-align: center;
+    font-weight: bold;
+    margin-left: 200px;
+    background-color: white;
+    color: rgb(177, 146, 146);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.book .place {
+    text-align: center;
+    font-weight: bold;
+    margin-left: 200px;
+    background-color: white;
+    color: rgb(177, 146, 146);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#attend {
+    margin-left: 65px;
+    display: inline;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
